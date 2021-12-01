@@ -1,5 +1,5 @@
 // Importing "react" is still required when using methods from it
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const elvenShieldRecipe = {
   leatherStrips: 2,
@@ -13,8 +13,6 @@ const elvenGauntletsRecipe = {
   leather: 1,
   refinedMoonstone: 1,
 };
-// console.log(elvenShieldRecipe);
-// console.log(elvenGountRecipe);
 
 const Recipes = () => {
   const [recipe, setRecipe] = useState({});
