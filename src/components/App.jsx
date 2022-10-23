@@ -6,14 +6,14 @@ import swordSvg from '../images/sword.svg';
 const App = () => {
   return (
     <>
-      <section className="hero"></section>
+      <section className='hero'></section>
       <main>
         <section>
-          <h1>Hey, React is Working!</h1>
+          <h1>React is Working!</h1>
         </section>
 
-        <img src={sword} alt="sword" width="250" />
-        <img src={swordSvg} alt="sword" width="250" />
+        <img src={sword} alt='sword' width='250' />
+        <img src={swordSvg} alt='sword' width='250' />
         <Recipes />
       </main>
     </>
