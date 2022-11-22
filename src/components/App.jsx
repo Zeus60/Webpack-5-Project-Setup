@@ -9,7 +9,7 @@ const App = () => {
       <section className='hero'></section>
       <main>
         <section>
-          <h1>React is Working!</h1>
+          <h1>Your App Component is Working!</h1>
         </section>
 
         <img src={sword} alt='sword' width='250' />
